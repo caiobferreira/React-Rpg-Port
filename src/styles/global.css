@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap");
+.menu {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  opacity: 1;
+}
+
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  padding: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.home-container button {
+  background-color: #FFE100;
+  padding: 2px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 4px solid black;
+  border-radius: 10px;
+  width: 35rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1rem;
+  margin: 0 auto;
+  width: 55rem;
+  height: 20rem;
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.about-container p {
+  font-size: 1.35rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bitter', serif;
+}
+
+body {
+  background-image: url("../assets/images/grunge-vintage-old-paper-background.jpg");
+}
+
+button:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=global.css.map */

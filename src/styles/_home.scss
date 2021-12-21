@@ -1,0 +1,46 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+
+    justify-content: center;
+    align-items: center;
+
+    button{
+            background-color: #FFE100;
+
+            padding: 2px;
+
+            font-size: 1.2rem;
+            font-weight: 500;
+
+            border: 4px solid black;
+            border-radius: 10px;
+
+            width: 35rem;
+            height:4rem;   
+
+            cursor: pointer;
+    }
+}
+
+.about-container{
+    display:flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+    margin: 0 auto;
+
+    width: 55rem;
+    height: 20rem;
+
+    border: 4px solid black;
+    border-radius: 10px;
+
+    p{
+        font-size: 1.35rem;
+        text-align: center;
+    }
+}
