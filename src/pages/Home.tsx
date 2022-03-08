@@ -1,13 +1,20 @@
 import {Menu} from '../components/Menu'
+import { useNavigate} from 'react-router-dom'
 
 export function Home(){
+
+    const navigate = useNavigate();
+
+function handleAbout(){
+navigate('/about');
+}
 
     return(
         <>
         <Menu/>
         <div className='home-container'>
         <h1>WELCOME TO REACT WORLD!</h1>
-        <div className="about-container">
+        <div className="project-container">
         <p>
         Welcome no my programing kingdom!
         </p>
@@ -28,7 +35,7 @@ This application was developed using, ReactJs, Typescript, Sass and Firebase Fir
         </p>
         </div>
         <br/>
-        <button>THE BATTLE BEGIN (CONTRACT ME PLEASE, IS NOT A JOKE)</button>
+        <button onClick={handleAbout}>THE BATTLE BEGIN (CONTRACT ME PLEASE, IS NOT A JOKE)</button>
         </div>
 
         </>

@@ -1,11 +1,19 @@
-//import {Home} from './pages/Home';
+import {Route,BrowserRouter,Routes} from 'react-router-dom';
+
+import {Home} from './pages/Home';
 import {About} from './pages/About';
 
 import './styles/global.css';
 
 function App() {
   return (
-   <About />
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/about" element={<About/>}/>
+  </Routes>
+   </BrowserRouter>
+   
   );
 }
 

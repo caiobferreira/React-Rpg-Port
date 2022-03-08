@@ -1,22 +1,22 @@
-@import 'menu';
-@import 'home';
-@import 'about';
+@import "menu";
+@import "home";
+@import "about";
 
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600&display=swap");
 
-$yellow: #FFE100;
+$yellow: #ffe100;
 
-*{
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
 
-    font-family: 'Bitter', serif;
+    font-family: "Bitter", serif;
 }
 
-body{
-    background-image: url('../assets/images/grunge-vintage-old-paper-background.jpg');
+body {
+    background-image: url("../assets/images/grunge-vintage-old-paper-background.jpg");
 }
 
 button:hover {
-opacity: 0.7;
+    opacity: 0.7;
 }
